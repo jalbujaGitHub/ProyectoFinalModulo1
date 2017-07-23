@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Educación Jaime Albuja</title>
+  </head>
+  <body>
+    <header>
+        <img src="images/logojag.jpg" alt="LogoJaimeAlbuja" width="10%"></img>
+        <h2>JAIME JOSELITO ALBUJA GARZON</h2>
+          <p>
+            <ul>
+              <li><a href="index.html" target="_self">Inicio</a></li>
+              <li><a href="educacion.html" target="_self">Educación</a></li>
+              <li><a href="experiencia.html" target="_self">Experiencia</a></li>
+            </ul>
+          </p>
+      </header>
+          <p>
+            <h2>Educación</h2>
+          </p>
+          <table border="1", cellpadding="2", cellspacing="0">
+            <thead>
+              <tr>
+                  <th>Año</th>
+                  <th>Institución</th>
+                  <th>Lugar</th>
+                  <th>¿Culminó?</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>2013</td>
+                <td>Universidad Técnica de Ambato - UTA</td>
+                <td>Ambato - Ecuador</td>
+                <td>Sí</td>
+              </tr>
+              <tr>
+                <td>1997</td>
+                <td>ESCUELA POLITECNICA JAVERIANA DEL ECUADOR - ESPOJ</td>
+                <td>Quito - Ecuador</td>
+                <td>Sí</td>
+              </tr>
+              <tr>
+                <td>1988</td>
+                <td>COLEGIO TECNICO EXPERIMENTAL LUIS N. DILLON</td>
+                <td>Quito - Ecuador</td>
+                <td>Sí</td>
+              </tr>
+            </tbody>
+          </table>
+          <p>
+              <h2>Agregar Educación</h2>
+          </p>
+          <div style="border: 0px solid ;">
+              <form class="Educacion" action="index.html" method="post">
+                <fieldset>
+                  <legend>Formulario para el ingreso de registros de educación</legend>
+                    <strong><label for="anio">Año : </label></strong>
+                    <select class="anio" name="anio">
+                      <option>2000</option>
+                      <option>2001</option>
+                      <option>2010</option>
+                      <option>2015</option>
+                      <option>2016</option>
+                    </select>
+                    <p>
+                      <strong><label for="Institucion">Institución : </label></strong>
+                      <input type="text" name="institucion" id="Institucion" placeholder="Ingrese el nombre de La institución " size="50px" required>
+                    </p>
+                    <p>
+                      <strong><label for="lugar">Lugar : </label></strong>
+                      <textarea  name="lugar" id="lugar" required rows="5" placeholder="Ingrese el Lugar Ciudad y País "></textarea>
+                    </p>
+                  </p>
+                    <strong><label for="cukmino">Culminó ? : </label></strong>
+                    <input type="radio" name="sino" value="si"> Sí </input>
+                    <input type="radio" name="sino" value="no"> No </input>
+                  </p>
+                  <p>
+                    <input type="submit" value="Enviar este formulario" />
+                  </p>
+                </fieldset>
+              </form>
+          </div>
+          <footer id="page-footer" class="footer">
+            <p class="copyright_stuff"><small>Derechos Reservados © 2016 </small></p>
+            <p class="mail_stuff"><ul><li><strong><small>E-mail : </strong><em>jaimealbuja@yahoo.com</em></small></li></ul></p>
+          </footer>
+  </body>
+</html>
